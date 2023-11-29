@@ -1,0 +1,206 @@
+body {
+    background-color: #F1CBAF !important; /* Adicionando !important para garantir alta prioridade */
+}
+
+.bg-custom {
+    background-color: #f8f8f8; /* Substitua pela cor desejada */
+}
+
+.sobreNos{
+    background-image: url(Imagens/fundoSN.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.sobreNos-container {
+    max-width: 100%; 
+    margin-left: 0; 
+    padding: 80px; 
+    margin-top: 100px;
+    margin-bottom: 197px;
+    text-align: left; 
+    color: #f8f8f8;
+    margin-left: -250px ;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+
+.moldura {
+    margin-top: 100px;
+    border: 5px solid #b39274; 
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%; 
+    max-width: 100%; 
+    margin-left: 200px;
+}
+/*Equipa*/
+.equipa {
+    margin-top: 120px;
+    margin-bottom: 125px;
+    border: 2px solid #b39274;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.equipa-info {
+    padding: 10px;
+    background-color: #b39274;
+    color: #fff;
+}
+
+.equipa img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #8f8f8f;
+    border: 2px solid #b39274;
+}
+
+.equipa p {
+    margin: 10px ;
+}
+
+.fundoE {
+    background-image: url(Imagens/fundoEquipa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 980px;
+}
+
+
+.formulario{
+    text-align: center;
+    color: #333;
+    margin-top: 100px;
+}
+textarea,
+input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 2px solid #b39274;
+    border-radius: 4px;
+}
+
+
+button{
+    margin-bottom: 60px;
+}
+
+footer {
+    color: #000000;
+    padding: 2px;
+    text-align: center;
+
+}
+
+/*Navbar Web*/
+.navbar-nav {
+    margin-right: 50px; 
+}
+
+.navbar-nav li {
+    margin-right: 10px;
+}
+
+
+.nav-link.font-weight-bold {
+    font-weight: bold;
+}
+
+/*Navbar Movel */
+.navbar-toggler {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.navbar-toggler {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .sobreNos-container {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .moldura {
+        margin: 0;
+    }
+
+    .navbar-nav {
+        margin-right: 0;
+    }
+
+    .navbar-nav li {
+        margin-right: 0;
+    }
+    .servicos .card {
+        width: 100%; /* Altere a largura para ocupar toda a largura da tela */
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        max-height: 200px;
+    }
+
+    .servicosT{
+        margin-top: 20px; /* Ajuste conforme necessário */
+    }
+
+    .row.justify-content-center {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row.justify-content-center .col-md-auto {
+        width: 100%; /* Ocupar toda a largura da tela */
+    }
+}
+
+.servicos{
+    margin-bottom: 200px;
+}
+
+.servicosT{
+    margin-top: 105px;
+}
+/*Cards*/
+.card {
+    width: 200px; /* Largura desejada */
+    height: 200px; /* Altura desejada */
+    background-color: rgba(255, 255, 255, 0.582); /* Cor de fundo com transparência */
+    border: 2px solid #b39274; /* Cor da borda */
+    transition: background-color 0.3s ease;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Cor de fundo com transparência ao passar o mouse */
+    filter: brightness(85%);
+    transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
+.icons{
+    width: 100px;
+    height: 100px ;
+}
+
+.center-image {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

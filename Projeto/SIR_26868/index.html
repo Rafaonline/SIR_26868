@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-custom navbar-transparent">
+            <div class="logo">
+                <a class="navbar-brand" href="#">
+                    <img src="Imagens/Logo.png" alt="Logo" width="40%" height="40%" class="d-inline-block align-top">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#sobreNos">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#equipa">Equipa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#contactos">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="sobreNos" class="sobreNos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="sobreNos-container">
+                        <h2>Sobre Nós</h2>
+                        <p>Bem-vindo à nossa oficina! No nosso estabelecimento é possível marcar data para fazer as suas revisões,
+                            bem como para a reparação do seu carro. Temos especialistas em várias diferentes áreas, dando assim ao 
+                            cliente um conforto maior, pois a sua viatura estará bem entregue.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="moldura">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Imagens/exterior.jpg" class="d-block w-100" alt="Troca de oleo">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Imagens/Interior.jpg" class="d-block w-100" alt="Verificacao de bateria">
+                                </div>                   
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>                        
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos">
+        <div class="container" >
+            <h2 class="text-center mb-5 servicosT">Nossos Serviços</h2>
+    
+            <div class="row justify-content-center">
+                <div class="col-md-auto mb-3">
+                    <div class="card text-center">
+                        <img src="Imagens/tires.png" class="card-img-top icons center-image" alt="Troca de Pneus">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Troca de Pneus</h5>
+                        </div>
+                    </div>                                        
+                </div>
+                <div class="col-md-auto mb-3">
+                    <div class="card text-center">
+                        <img src="Imagens/Mudança de oleo.png" class="card-img-top icons center-image" alt="Mudança de oleo">
+                        <div class="card-body">
+                            <h5 class="card-title">Mudança de óleo</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto mb-3">
+                    <div class="card text-center">
+                        <img src="Imagens/Carrossaria.png" class="card-img-top icons center-image" alt="Carrossaria">
+                        <div class="card-body">
+                            <h5 class="card-title">Carrossaria</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-auto mb-3">
+                    <div class="card text-center">
+                        <img src="Imagens/Pintura.png" class="card-img-top icons center-image" alt="Pintura">
+                        <div class="card-body">
+                            <h5 class="card-title">Pintura</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto mb-3">
+                    <div class="card text-center">
+                        <img src="Imagens/Revisao.png" class="card-img-top icons center-image" alt="Revisao">
+                        <div class="card-body">
+                            <h5 class="card-title">Revisão</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto mb-3">
+                    <div class="card text-center">
+                        <img src="Imagens/Suspensao,direcao.png" class="card-img-top icons center-image" alt="Suspensao,direcao">
+                        <div class="card-body">
+                            <h5 class="card-title">Suspensão</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="equipa" class="fundoE">
+         <div class="container col-md-3 mt-5">          
+            <div class="equipa">
+                <div class="equipa-info">                       
+                     <p class="nav-link font-weight-bold">Equipa do trabalho</p>
+                </div>
+                <div class="mt-5">
+                    <img src="Imagens/rafael.jpg" alt="Rafael" class="img-fluid" style="max-width: 100%;">
+                    <p class="nav-link font-weight-bold">Diogo</p>
+                    <p></p>
+                </div>     
+           </div>
+        </div>
+    </section>
+
+    <section id="contactos">
+        <div class="container">
+            <h2 class="formulario">Formulário de Contacto</h2>
+            <div class="text-center mt-5">
+                <form action="#" method="post">
+                    <label>Nome:</label>
+                    <br>
+                    <input type="text" id="nome" name="nome" >
+                    <br>
+                    <label>E-mail:</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <label for="mensagem">Mensagem:</label>
+                    <br>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                    <br>
+                    <button type="button" class="btn btn-primary btn-lg">Enviar</button>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container text-center mt-5">
+        <footer>
+            <p class="nav-link font-weight-bold">&copy; 2023 Diogo Novais. Todos os direitos reservados.</p>
+        </footer>
+    </div>    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new bootstrap.Carousel(document.getElementById('carouselExampleAutoplaying'), {
+                interval: 2000
+            });
+        });
+    </script>
+</body>
+</html>
